@@ -1,0 +1,44 @@
+.post{
+    background-color: #eee;
+    margin: 0px;
+    padding: 0px;
+    border-top-style: solid;
+    border-width: 1px;
+    font-size: 0.8em;
+  }
+  .post3{
+    border-style: solid;
+    border-width: 1px;
+  }
+  .post2{
+    border-style: solid;
+    border-width: 1px;
+  }
+  .postOld{
+    background-color: #eee;
+    margin: 2rem;
+    padding: 1rem;
+  }
+  .pagination{
+    margin: 1rem auto;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+  }
+  .active{
+    border: 1px solid black;
+    border-radius: 100%;
+    padding: 0 3px;
+    outline: none;
+  }
+  div.hr {
+    height: 1px;
+    color: #000000;
+    background: #000000;
+    width: 300px;
+    margin-bottom: -1em;
+    margin-top: -1em;
+    padding: 0px;
+    margin: 0px; 
+  }
