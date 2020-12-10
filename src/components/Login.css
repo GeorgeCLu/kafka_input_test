@@ -1,0 +1,103 @@
+  .customSelect {
+    width: 200px;
+  }
+  .customSelect .MuiInputLabel-root {
+    color: red;
+  }
+  .customSelect .MuiInputBase-input {
+    color: green;
+  }
+  .customSelect .MuiOutlinedInput-notchedOutline {
+    border-color: red;
+  }
+  .customSelect:hover .MuiOutlinedInput-notchedOutline {
+    border-color: orange;
+  }
+  .customSelect
+    .MuiOutlinedInput-root.Mui-focused
+    .MuiOutlinedInput-notchedOutline {
+    border-color: purple;
+  }
+  .customSelectMenu .MuiMenuItem-root {
+    color: blue;
+  }
+
+  .customText {
+    width: 200px;
+  }
+  .customText .MuiInputLabel-root {
+    color: chartreuse;
+  }
+  .customText .MuiInputBase-input {
+    color: #5f6363;
+  }
+  .customText .MuiOutlinedInput-notchedOutline {
+    border-color: palevioletred;
+  }
+  .customText:hover .MuiOutlinedInput-notchedOutline {
+    border-color: yellow;
+  }
+  .customText
+    .MuiOutlinedInput-root.Mui-focused
+    .MuiOutlinedInput-notchedOutline {
+    border-color: aqua;
+  }
+  .customText .MuiMenuItem-root {
+    color: blue;
+  }
+  .customText .MuiInput-underline {
+    border-color: #8a8686;
+  }
+  .customText .MuiInputBase-input {
+    border-color: #8a8686;
+  }
+
+  .chat .MuiInput-underline {
+    border-color: #8a8686;
+  }
+  .chat .MuiInputBase-input {
+    border-color: #8a8686;
+  }
+
+
+
+  .test
+    .MuiOutlinedInput-root 
+    .MuiOutlinedInput-notchedOutline {
+    border-color: orange;
+  }
+  .test
+    .MuiOutlinedInput-root 
+    .MuiOutlinedInput-notchedOutline {
+    border-color: red;
+  }
+  .test
+    .MuiOutlinedInput-root.Mui-focused 
+    .MuiOutlinedInput-notchedOutline {
+    border-color: green;
+  }
+  .test
+    .MuiOutlinedInput-input {
+    color: orange;
+  }
+  .test
+    .MuiOutlinedInput-input {
+    color: red;
+  }
+  .test
+    .MuiOutlinedInput-root.Mui-focused 
+    .MuiOutlinedInput-input {
+    color: green;
+  }
+  .test
+    .MuiInputLabel-outlined {
+    color: orange;
+  }
+  .test
+    .MuiInputLabel-outlined {
+    color: red;
+  }
+  .test
+    .MuiInputLabel-outlined.Mui-focused {
+    color: green;
+  }

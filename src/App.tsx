@@ -25,21 +25,9 @@ import Drawer from '@material-ui/core/Drawer';
 import Hidden from '@material-ui/core/Hidden';
 import { useTheme } from '@material-ui/core/styles';
 
-import Home from './components/Home';
-import Login from './components/Login';
+
 import Chat from './components/Chat';
-import Races from './components/Races';
-import Race from './components/Race';
-import Add from './components/Add';
-import Sidedrawer from './components/Sidedrawer';
-import r from './assets/RV3.png';
-import raceService from './services/race';
-import reviewService from './services/review';
-import RaceType from './common/race';
-import ReviewType from './common/review';
-// eslint-disable-next-line import/no-unresolved
-import useStyles from './components/UseStyles';
-// import useStyles from './components/UseStyles.js';
+
 
 interface MessageType {
   postTime: string,
@@ -83,7 +71,7 @@ const App = () => {
     });
   }
 
-  const apiBaseUrl = 'https://racereviewchatsignalr.azurewebsites.net';
+  const apiBaseUrl = 'https://signalr123456.azurewebsites.net';
   // const apiBaseUrl = 'https://kafkademo.azurewebsites.net';
 
   useEffect(() => {
